@@ -5,7 +5,10 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
+    "start:prod": "node server.js",
+    "lint": "eslint.",
+    "lint:fix": "eslint. --fix",
     "test": "jest"
   },
   "keywords": [],
