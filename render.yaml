@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: delivery-management-api
+    env: node
+    plan: free
+    region: oregon  # choose your region, options: oregon, frankfurt, singapore, sydney
+    buildCommand: "npm install"
+    startCommand: "node server.js"
+    autoDeploy: true
+   
